@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="DataStructure_Algo" Database="" Version="10000">
-  <Project Name="072_MergeSortedArrays" Path="072_MergeSortedArrays/072_MergeSortedArrays.project" Active="Yes"/>
+  <Project Name="10_BinarySearchTree" Path="072_MergeSortedArrays/072_MergeSortedArrays.project" Active="No"/>
+  <Project Name="11_GraphImplementation" Path="GraphImplementation/GraphImplementation.project" Active="No"/>
+  <Project Name="13_01_BubbleSort" Path="BubbleSort/BubbleSort.project" Active="No"/>
+  <Project Name="13_02_SelectionSort" Path="InsertionSort/InsertionSort.project" Active="No"/>
+  <Project Name="13_03_InsertionSort" Path="InsertionSort/InsertionSort.project" Active="No"/>
+  <Project Name="13_02_SelectionSort" Path="SelectionSort/SelectionSort.project" Active="No"/>
+  <Project Name="13_04_MergeSort" Path="MergeSort/MergeSort.project" Active="No"/>
+  <Project Name="13_05_QuickSort" Path="QuickSort/QuickSort.project" Active="No"/>
+  <Project Name="14_02_BFS_DFS" Path="14_02_BreadthFirstSearch/14_02_BreadthFirstSearch.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="072_MergeSortedArrays" ConfigName="Debug"/>
+      <Project Name="10_BinarySearchTree" ConfigName="Debug"/>
+      <Project Name="11_GraphImplementation" ConfigName="Debug"/>
+      <Project Name="13_01_BubbleSort" ConfigName="Debug"/>
+      <Project Name="13_02_SelectionSort" ConfigName="Debug"/>
+      <Project Name="13_03_InsertionSort" ConfigName="Debug"/>
+      <Project Name="13_02_SelectionSort" ConfigName="Debug"/>
+      <Project Name="13_04_MergeSort" ConfigName="Debug"/>
+      <Project Name="13_05_QuickSort" ConfigName="Debug"/>
+      <Project Name="14_02_BFS_DFS" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="072_MergeSortedArrays" ConfigName="Release"/>
+      <Project Name="10_BinarySearchTree" ConfigName="Release"/>
+      <Project Name="11_GraphImplementation" ConfigName="Release"/>
+      <Project Name="13_01_BubbleSort" ConfigName="Release"/>
+      <Project Name="13_02_SelectionSort" ConfigName="Release"/>
+      <Project Name="13_03_InsertionSort" ConfigName="Release"/>
+      <Project Name="13_02_SelectionSort" ConfigName="Release"/>
+      <Project Name="13_04_MergeSort" ConfigName="Release"/>
+      <Project Name="13_05_QuickSort" ConfigName="Release"/>
+      <Project Name="14_02_BFS_DFS" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

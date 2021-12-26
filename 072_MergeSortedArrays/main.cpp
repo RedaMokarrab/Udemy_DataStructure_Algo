@@ -1,24 +1,21 @@
+#include "BinarySearchTree.h"
 #include <iostream>
 using namespace std;
-int* mergeSortedArrays(int array1[], int array2[]);
 
 int main(int argc, char** argv)
 {
-    int* mergedpointer { nullptr };
-    int arr1[] = { 0, 3, 4, 31 };
-    int arr2[] = { 3, 4, 6, 30 };
-    mergedpointer = mergeSortedArrays(arr1, arr2);
+    BinarySearchTree myBST;
 
-    cout << "Merged array  :" << endl;
-        for(auto item : mergedpointer) {
-            cout << item << endl;
-        }
-        return 0;
-    }
+    myBST.insert(9);
+    myBST.insert(4);
+    myBST.insert(6);
+    myBST.insert(20);
+    myBST.insert(170);
+    myBST.insert(15);
+    myBST.insert(1);
 
-    int*    mergeSortedArrays(int array1[], int array2[])
-    {
-        int* result = new array<int> {};
+    print2DUtil(myBST.root,0);
 
-        return result;
-    }
+    print2DUtil(myBST.lookup(6),0);
+ return 0;
+}

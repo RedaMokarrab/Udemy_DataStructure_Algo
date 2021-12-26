@@ -6,15 +6,15 @@
 ProjectName            :=072_MergeSortedArrays
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=C:/Data/Training/DataStructure_Algo
-ProjectPath            :=C:/Data/Training/DataStructure_Algo/072_MergeSortedArrays
+WorkspacePath          :=C:/Workset/Udemy_DataStructure_Algo
+ProjectPath            :=C:/Workset/Udemy_DataStructure_Algo/072_MergeSortedArrays
 IntermediateDirectory  :=../build-$(ConfigurationName)/072_MergeSortedArrays
 OutDir                 :=../build-$(ConfigurationName)/072_MergeSortedArrays
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Redaaaaaa
-Date                   :=15/12/2021
+Date                   :=19/12/2021
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -52,7 +52,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := C:/MinGW/bin/ar.exe rcu
 CXX      := C:/MinGW/bin/g++.exe
 CC       := C:/MinGW/bin/gcc.exe
-CXXFLAGS :=  -g -O0 -std=c++14 -Wall -j8 $(Preprocessors)
+CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/MinGW/bin/as.exe
@@ -93,16 +93,11 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Data/Training/DataStructure_Algo/072_MergeSortedArrays/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(DependSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(DependSuffix) -MM main.cpp
-
+../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(ObjectSuffix): main.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Workset/Udemy_DataStructure_Algo/072_MergeSortedArrays/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/072_MergeSortedArrays/main.cpp$(PreprocessSuffix) main.cpp
 
-
--include ../build-$(ConfigurationName)/072_MergeSortedArrays//*$(DependSuffix)
 ##
 ## Clean
 ##

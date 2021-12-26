@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 072_MergeSortedArrays - Release ]----------"
-	@cd "072_MergeSortedArrays" && "$(MAKE)" -f  "072_MergeSortedArrays.mk"
+	@echo "----------Building project:[ 14_02_BreadthFirstSearch - Debug ]----------"
+	@cd "14_02_BreadthFirstSearch" && "$(MAKE)" -f  "14_02_BreadthFirstSearch.mk"
 clean:
-	@echo "----------Cleaning project:[ 072_MergeSortedArrays - Release ]----------"
-	@cd "072_MergeSortedArrays" && "$(MAKE)" -f  "072_MergeSortedArrays.mk" clean
+	@echo "----------Cleaning project:[ 14_02_BreadthFirstSearch - Debug ]----------"
+	@cd "14_02_BreadthFirstSearch" && "$(MAKE)" -f  "14_02_BreadthFirstSearch.mk" clean
