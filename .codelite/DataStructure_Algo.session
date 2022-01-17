@@ -1,12 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Workset\Udemy_DataStructure_Algo\DataStructure_Algo.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="9" Name="m_selectedTab"/>
   <wxString Value="C:\Workset\Udemy_DataStructure_Algo\DataStructure_Algo.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\14_02_BreadthFirstSearch\main.cpp" Name="FileName"/>
+      <int Value="34" Name="FirstVisibleLine"/>
+      <int Value="45" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\14_02_BreadthFirstSearch\BinarySearchTree.cpp" Name="FileName"/>
+      <int Value="113" Name="FirstVisibleLine"/>
+      <int Value="188" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds">
+        <IntVectorItem Value="14"/>
+        <IntVectorItem Value="19"/>
+        <IntVectorItem Value="111"/>
+        <IntVectorItem Value="123"/>
+        <IntVectorItem Value="130"/>
+        <IntVectorItem Value="144"/>
+        <IntVectorItem Value="161"/>
+        <IntVectorItem Value="193"/>
+      </IntVector>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\14_02_BreadthFirstSearch\BinarySearchTree.h" Name="FileName"/>
+      <int Value="24" Name="FirstVisibleLine"/>
+      <int Value="33" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\072_MergeSortedArrays\BinarySearchTree.cpp" Name="FileName"/>
+      <int Value="30" Name="FirstVisibleLine"/>
+      <int Value="56" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\QuickSort\main.cpp" Name="FileName"/>
+      <int Value="69" Name="FirstVisibleLine"/>
+      <int Value="67" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\MergeSort\main.cpp" Name="FileName"/>
+      <int Value="84" Name="FirstVisibleLine"/>
+      <int Value="97" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
       <wxString Value="C:\Workset\Udemy_DataStructure_Algo\InsertionSort\main.cpp" Name="FileName"/>
-      <int Value="17" Name="FirstVisibleLine"/>
-      <int Value="24" Name="CurrentLine"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="42" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\SelectionSort\main.cpp" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="39" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\GraphImplementation\main.cpp" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="6" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Workset\Udemy_DataStructure_Algo\GraphImplementation\Graph.h" Name="FileName"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

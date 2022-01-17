@@ -127,9 +127,6 @@ vector<int> BinarySearchTree::depthFirstSearchPostOrder()
     return dfsPostOrder(root,v);
 }
 
-
-
-
 vector <int> dfsInOrder(Node* node,vector<int>&v )
 {
     if(node->left!=nullptr)
@@ -161,7 +158,6 @@ vector <int> dfsPreOrder(Node* node,vector<int>&v )
     return v;
 }
 
-
 vector <int> dfsPostOrder(Node* node,vector<int>&v )
 {
      if(node->left!=nullptr)
@@ -177,7 +173,6 @@ vector <int> dfsPostOrder(Node* node,vector<int>&v )
         
     return v;
 }
-
 
 vector<int> bfsRecursive(queue<Node*>& q, vector<int>& v)
 {

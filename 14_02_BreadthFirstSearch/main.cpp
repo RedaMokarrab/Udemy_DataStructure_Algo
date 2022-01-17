@@ -33,10 +33,13 @@ int main(int argc, char **argv)
     list_print(temp);
     
     /*DFS*/
+    cout<<"InOrder"<<endl;
     temp = myBST.depthFirstSearchInOrder();
     list_print(temp);
+    cout<<"PreOrder"<<endl;
     temp = myBST.depthFirstSearchPreOrder();
     list_print(temp);
+    cout<<"PostOrder"<<endl;
     temp = myBST.depthFirstSearchPostOrder();
     list_print(temp);
 

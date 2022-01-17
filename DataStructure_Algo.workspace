@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="DataStructure_Algo" Database="" Version="10000">
+  <WorkspaceParserMacros/>
+  <WorkspaceParserPaths/>
   <Project Name="10_BinarySearchTree" Path="072_MergeSortedArrays/072_MergeSortedArrays.project" Active="No"/>
   <Project Name="11_GraphImplementation" Path="GraphImplementation/GraphImplementation.project" Active="No"/>
   <Project Name="13_01_BubbleSort" Path="BubbleSort/BubbleSort.project" Active="No"/>
@@ -8,7 +10,9 @@
   <Project Name="13_02_SelectionSort" Path="SelectionSort/SelectionSort.project" Active="No"/>
   <Project Name="13_04_MergeSort" Path="MergeSort/MergeSort.project" Active="No"/>
   <Project Name="13_05_QuickSort" Path="QuickSort/QuickSort.project" Active="No"/>
-  <Project Name="14_02_BFS_DFS" Path="14_02_BreadthFirstSearch/14_02_BreadthFirstSearch.project" Active="Yes"/>
+  <Project Name="14_02_BFS_DFS" Path="14_02_BreadthFirstSearch/14_02_BreadthFirstSearch.project" Active="No"/>
+  <Project Name="15_01_DynamicProgramming" Path="15_01_DynamicProgramming/15_01_DynamicProgramming.project" Active="No"/>
+  <Project Name="FacebookInterview" Path="FacebookInterview/FacebookInterview.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -21,6 +25,8 @@
       <Project Name="13_04_MergeSort" ConfigName="Debug"/>
       <Project Name="13_05_QuickSort" ConfigName="Debug"/>
       <Project Name="14_02_BFS_DFS" ConfigName="Debug"/>
+      <Project Name="15_01_DynamicProgramming" ConfigName="Debug"/>
+      <Project Name="FacebookInterview" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -33,6 +39,8 @@
       <Project Name="13_04_MergeSort" ConfigName="Release"/>
       <Project Name="13_05_QuickSort" ConfigName="Release"/>
       <Project Name="14_02_BFS_DFS" ConfigName="Release"/>
+      <Project Name="15_01_DynamicProgramming" ConfigName="Release"/>
+      <Project Name="FacebookInterview" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
