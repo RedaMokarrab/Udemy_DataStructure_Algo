@@ -1,0 +1,1 @@
+operator <<	C:\Users\rmokarra\Documents\Training\Udemy_FromBeginnerToBeyond\Section16\ChallengeSolution\I_Printable.cpp	/^std::ostream &operator<<(std::ostream &os, const I_Printable &obj) {$/;"	function	line:4	signature:(std::ostream &os, const I_Printable &obj)	returns:std :: ostream 
